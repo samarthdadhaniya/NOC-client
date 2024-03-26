@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.certificate {
+    width: 210mm;
+    height: 297mm;
+    margin: 0 auto;
+    padding: 10mm 15mm 5mm;
+    background-color: #ffffff;
+    position: relative;
+    border: 1px solid black;
+}
+
+.college_header_data {
+    display: flex;
+    justify-content: space-between;
+}
+
+.college_header_data .college_name {
+    text-align: center;
+}
+
+.college_header_data .college_name span {
+    color: rgb(61, 61, 255);
+    font-weight: 900;
+    font-size: larger;
+}
+
+.college_data {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.college_data .student_data span {
+    color: red;
+    font-weight: bold;
+}
+
+.application_date {
+    color: red;
+    font-weight: bold;
+}
+
+.hr_information span {
+    color: black;
+    font-size: 18px;
+}
+
+.hr_information {
+    color: red;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.noc_subject .noc_subject_data {
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+    font-weight: bolder;
+}
+
+.noc_main_data_section {
+    margin-top: 20px;
+}
+
+.noc_main_data_section .noc_data {
+    margin-top: 30px;
+    text-align: justify;
+}
+
+.noc_main_data_section .noc_data p {
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.noc_main_data_section .noc_data .noc_content {
+    text-indent: 32px;
+}
+
+.noc_main_data_section .noc_data .college_contact_details {
+    margin-top: 43px;
+}
+
+.noc_main_data_section .noc_data .college_contact_details span {
+    color: blue;
+    font-weight: bold;
+}
+
+.college_logo img {
+    height: 125px;
+    width: 125px;
+}

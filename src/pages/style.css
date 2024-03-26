@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.certificate {
+    width: 210mm; 
+    margin: 0 auto;
+    padding: 5mm 15mm;
+    position: relative;
+
+}
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.content {
+    text-align: center;
+    font-size: 18px;
+}
+.college_header_data
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.college_name
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.college_data{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+
+.application_date{
+    color: red;
+}
+
+#letter-header div:first-child {
+    display: flex;
+    flex-direction: column;
+}
+
+#letter-header h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.2em;
+}
+
+#letter-header h2:first-child {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+#letter-header h2:last-child {
+    font-size: 1.3em;
+}
+
+.section-title {
+    color: black;
+    font-size: 1.1em;
+    margin: 1em 0 0.5em 0;
+    text-transform: uppercase;
+}
+
+.letter_content{
+    margin-top: 30px;
+}
+
+.hr_information span{
+    color: black;
+    font-size: 1.2rem;
+}
+.hr_information{
+    color: red;
+}
+
+.noc_subject .noc_subject_data{
+    display: flex;
+    justify-content: center;
+    margin-top: 3.5rem;
+    font-weight: bolder;
+}
+
+.noc_main_data_section{
+    margin-top: 2rem;
+}
