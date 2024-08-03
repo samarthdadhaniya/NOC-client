@@ -1,44 +1,77 @@
-## Minimal [(Free version)](https://minimal-kit-react.vercel.app/)
+# NOC Certificate Generator
 
-> Noc Certificate Generator .
+This repository contains the code for the NOC (No Objection Certificate) Generator application. This project aims to simplify the process of generating NOC certificates.
 
-![preview](public/assets/preview.png)
+## Features
+- Generate NOC certificates
+- User authentication
+- Responsive design
+- Dashboard with user and product management
 
-## Demo
+## Installation
+### Prerequisites
+- Node.js v18.x
 
-- [Dashboard Page](https://minimal-kit-react.vercel.app/)
-- [Users Page](https://minimal-kit-react.vercel.app/user)
-- [Products Page](https://minimal-kit-react.vercel.app/products)
-- [Blog Page](https://minimal-kit-react.vercel.app/blog)
-- [Login Page](https://minimal-kit-react.vercel.app/login)
-- [Not Found Page](https://minimal-kit-react.vercel.app/404)
+### Steps
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/samarthdadhaniya/NOC-client.git
+   cd NOC-client
+   ```
+2. Install dependencies:
+   ```sh
+   yarn install
+   ```
+3. Start the development server:
+   ```sh
+   yarn dev
+   ```
+4. Build for production:
+   ```sh
+   yarn build
+   ```
 
-## Quick start
+## Usage
+1. Open your browser and navigate to `http://localhost:3000`.
+2. Use the dashboard to manage users and generate NOC certificates.
 
-- [Download from Github](https://github.com/minimal-ui-kit/material-kit-react/archive/refs/heads/main.zip) or clone the repo : `git clone https://github.com/minimal-ui-kit/material-kit-react.git`
-- Recommended `Node.js v18.x`.
-- **Install:** `yarn install`
-- **Start:** `yarn dev`
-- **Build:** `yarn build`
+## Folder Structure
+```
+NOC-client/
+├── public/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── styles/
+│   └── utils/
+├── .env.sample
+├── .eslintignore
+├── .eslintrc
+├── .gitignore
+├── .prettierignore
+├── .prettierrc
+├── CHANGELOG.md
+├── LICENSE.md
+├── README.md
+├── index.html
+├── jsconfig.json
+├── package-lock.json
+├── package.json
+├── vercel.json
+└── vite.config.js
+```
 
-## Upgrade to PRO Version
-
-| Minimal Free     | [Minimal Pro](https://material-ui.com/store/items/minimal-dashboard/) |
-| :--------------- | :-------------------------------------------------------------------- |
-| **6** Demo Pages | **70+** Demo Pages                                                    |
-| -                | Authentication with **Amplify**, **Auth0**, **JWT** and **Firebase**  |
-| -                | [+More components](https://minimals.cc/components)                    |
-| -                | Dark & light mode                                                     |
-| -                | Next.js version                                                       |
-| -                | TypeScript version (Standard Plus and Extended license)               |
-| -                | Design Figma File (Standard Plus and Extended license)                |
-| -                | Complete Users Flows                                                  |
-| -                | Learn more: [Package & License](https://docs.minimals.cc/package)     |
+## Contributing
+Contributions are welcome! Please fork this repository and submit a pull request for any enhancements or bug fixes.
 
 ## License
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE.md) file for details.
 
-Distributed under the MIT License. See [LICENSE](https://github.com/minimal-ui-kit/minimal.free/blob/main/LICENSE.md) for more information.
+## Contact
+For any inquiries or issues, please contact:
+- **Samarth Dadhaniya**
+- Email: [samarth.dadhaniya@example.com](mailto:samarth.dadhaniya@example.com)
 
-## Contact us
+---
 
-Email: support@minimals.cc
+This README file was generated to provide a comprehensive overview of the NOC Certificate Generator project, including installation instructions, usage guidelines, and contact information for further assistance.
